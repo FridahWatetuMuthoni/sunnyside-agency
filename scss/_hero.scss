@@ -1,0 +1,31 @@
+@use "./variables" as *;
+
+.hero {
+  background-image: url("../images/mobile/image-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  color: $white-color;
+}
+
+.hero-text {
+  letter-spacing: 8px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 150px;
+  font-family: "Fraunces", serif;
+}
+
+.hero-arrow {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 150px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("../images/desktop/image-header.jpg");
+  }
+}

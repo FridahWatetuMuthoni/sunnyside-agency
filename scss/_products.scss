@@ -1,0 +1,89 @@
+.products {
+  width: 100%;
+}
+
+.img-box {
+  height: 25rem;
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  height: 25rem;
+}
+
+.products-text {
+  text-align: center;
+  padding: 10%;
+}
+
+.image-text {
+  text-align: center;
+  padding: 230px 40px 0 40px;
+}
+
+.photography {
+  background-image: url("../images/desktop/image-photography.jpg");
+  background-position: center top;
+  background-size: cover;
+  color: hsl(198, 62%, 26%);
+}
+
+.graphic {
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+  background-position: center top;
+  background-size: cover;
+  color: hsl(167, 40%, 24%);
+}
+
+.img-box:nth-child(1) {
+  order: 2;
+}
+.img-box:nth-child(2) {
+  order: 1;
+}
+.img-box:nth-child(3) {
+  order: 3;
+}
+.img-box:nth-child(4) {
+  order: 4;
+}
+.img-box:nth-child(5) {
+  order: 5;
+}
+.img-box:nth-child(6) {
+  order: 6;
+}
+
+@media (min-width: 768px) {
+  .image-text {
+    padding: 240px 40px 0 40px;
+  }
+  .products-text {
+    padding: 5% 10%;
+  }
+  .img-box:nth-child(1) {
+    order: 1;
+  }
+  .img-box:nth-child(2) {
+    order: 2;
+  }
+  .img-box:nth-child(3) {
+    order: 3;
+  }
+  .img-box:nth-child(4) {
+    order: 4;
+  }
+  .img-box:nth-child(5) {
+    order: 5;
+  }
+  .img-box:nth-child(6) {
+    order: 6;
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-text {
+    padding: 260px 40px 0 40px;
+  }
+}

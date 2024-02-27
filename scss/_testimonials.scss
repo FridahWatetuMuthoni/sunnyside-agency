@@ -1,0 +1,43 @@
+.testimonials {
+  width: 100%;
+}
+
+.profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-image img {
+  border-radius: 50%;
+}
+
+.testimonials h1 {
+  letter-spacing: 8px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.testimonial h5 {
+  font-family: "Fraunces", serif;
+  font-weight: bolder;
+}
+
+.testimonial h6 {
+  font-weight: 100;
+}

@@ -1,0 +1,29 @@
+.footer {
+  background-color: hsl(168, 34%, 41%);
+  color: hsl(167, 40%, 24%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links,
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
